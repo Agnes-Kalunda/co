@@ -23,7 +23,7 @@ const Hero = () => {
             loop
           />
         </div>
-        <p className='md:text-2xl text-xl font-bold text-gray-500'>Bleh rrrrrr fffff sssssss aaaa DAVID, MIKE, & NEEMAplatforms.</p>
+        <p className='md:text-2xl text-xl font-bold text-gray-500'>Bleh rrrrrr fffff sssssss aaaa DAVID, MIKE, & NEEMA platforms.</p>
         <button className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black'>Get Started</button>
       </div>
     </div>
