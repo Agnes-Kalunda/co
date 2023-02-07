@@ -1,8 +1,23 @@
 import React from 'https://cdn.skypack.dev/react';
+import Navbar from './Navbar';
+import Footer from './Footer';
 
 function Company() {
   return (
-    <section className="relative">
+
+    
+    <div>
+<Navbar />
+        
+        {/* <div className='md:text-7xl sm:text-6xl text-4xl font-bold md:py-6 bg-gradient-to-r from-purple-500 to-pink-500'>
+<h1 className='text-white px-64 font-bold'>Your Story Starts With Us.</h1>
+        </div>
+        <div className='bg-gradient-to-r from-purple-500 to-pink-500'>
+            <h3 className='text-white  text-center '>lorem lorem lorem lorem lorem lorem <br /> lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem.</h3>
+        </div> */}
+
+
+    <section className="relative bg-gradient-to-r from-purple-500 to-pink-500">
 
       {/* Section background (needs .relative class on parent and next sibling elements) */}
       <div className="absolute inset-0 top-1/2 md:mt-24 lg:mt-0 bg-gray-900 pointer-events-none" aria-hidden="true"></div>
@@ -12,10 +27,13 @@ function Company() {
         <div className="py-12 md:py-20">
 
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">How Simple works</h2>
+          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20 md:text-7xl sm:text-6xl text-4xl font-bold md:py-6 text-white">
+            <h2 className="h2 mb-4">How Company works</h2>
             <p className="text-xl text-gray-600">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.</p>
           </div>
+
+
+
 
           {/* Items */}
           <div className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none">
@@ -122,6 +140,9 @@ function Company() {
         </div>
       </div>
     </section>
+    <Footer />
+    </div>
+    
   );
 }
 
