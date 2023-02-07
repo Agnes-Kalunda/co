@@ -134,12 +134,52 @@ function Company() {
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Develop & Launch</h4>
               <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
-
+           
+           
+          
           </div>
 
+         
+
         </div>
+        
       </div>
+
+      
+
     </section>
+
+    <div className='mt-32 flex flex-wrap items-center text-white'>
+        <div className='mx-auto mt-8 w-full px-4 md:w-5/12'>
+            <div className='mb-6 inline-flex h-16 w-16 items-center justify-center rounded-full bg-white p-3 text-center shadow-lg'>
+              image
+            </div>
+            <h2 className='text-gray mb-3 font-bold'>Working with us is a pleasure</h2>
+            <p className='mb-8 font-normal text-blue-gray-500'>Don't let your uses guess by attaching tooltips and popoves to <br />Don't let your uses guess by attaching tooltips and popoves to <br /> Don't let your uses guess by attaching tooltips and popoves to <br/> Don't let your uses guess by attaching tooltips and popoves to <br/>Don't let your uses guess by attaching tooltips and popoves to<br/>Don't let your uses guess by attaching tooltips and popoves to <br/>Don't let your uses guess by attaching tooltips and popoves to <br/>Don't let your uses guess by attaching tooltips and popoves to <br/>Don't let your uses guess by attaching tooltips and popoves to  </p>
+        </div>
+
+        <div className='mx-auto mt-24 flex w-full justify-center px-4 md:w-4/12 lg:mt-0 '>
+            <div className='shadow-lg shadow-gray-500/10'>
+                <div className='relative h-56'>
+                    IMAGE classname "h-full w-full"
+
+                </div>
+
+                <div className='mb-3 font-bold '>
+                    <h2>Top Notch Services</h2>
+                </div>
+                <div className='font-normal text-blue-gray-500'>
+                    <p>The Arctic Ocean freezes every winter and much of the<br/> sea-ice then thaws every summer, and that process will<br/>sea-ice then thaws every summer, and that process will<br/>sea-ice then thaws every summer, and that process will</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        
+    </div>   
+
     <Footer />
     </div>
     
