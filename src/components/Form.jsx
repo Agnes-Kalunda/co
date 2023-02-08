@@ -9,12 +9,12 @@ const Form = () => {
     <div> 
         <Navbar/>
 <div className="relative flex flex-col justify-center min-h-screen overflow-hidden ">
-      <div className="w-full p-6 m-auto bg-white rounded-md shadow-xl shadow-rose-600/40 ring-2 ring-indigo-600 lg:max-w-xl">
-        <h1 className="text-3xl font-semibold text-center text-indigo-700 underline uppercase decoration-wavy">
+      <div className="w-full p-6 m-auto bg-white rounded-md shadow-xl shadow-rose-600/40 ring-2 text-green-600 lg:max-w-xl">
+        <h1 className="text-3xl font-semibold text-center  underline uppercase decoration-wavy">
           Contact Form
         </h1>
         <form className="mt-6">
-          <div className="mb-2">
+          <div className="mb-2 ">
             <label>
               <span className="text-gray-700">Your name</span>
               <input

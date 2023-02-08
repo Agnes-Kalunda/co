@@ -22,7 +22,7 @@ const Newsletter = () => {
             </button>
           </div>
           <p>
-            We care bout the protection of your money. Read our{' '}
+            We care about the full satisfaction of your technical needs . Read our{' '}
             <span className='text-[#00df9a]'>Privacy Policy.</span>
           </p>
         </div>
