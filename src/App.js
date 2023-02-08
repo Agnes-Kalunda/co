@@ -9,15 +9,22 @@ import Newsletter from './components/Newsletter';
 import Company from './components/Company'
 import Form from './components/Form';
 import Container from './components/Container';
+// import { Route } from 'react-router-dom'
 
 function App() {
   return (
     <div>
-      <Container/>
-       <Company />  
-      <Form /> 
+      {/* <Navbar/>
+      <Route exact path="/" component={Hero} />
+      <Route path='/about' component={Company} />
+      <Route path='/contact' component={Form} /> */}
 
-      
+       <Navbar/>
+            <Hero/>
+            <Cards />
+            <Section/>
+            <Newsletter/>
+            <Footer />
      
     </div>
   );
