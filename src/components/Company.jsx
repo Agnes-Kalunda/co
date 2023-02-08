@@ -1,6 +1,7 @@
 import React from 'https://cdn.skypack.dev/react';
 import Navbar from './Navbar';
 import Footer from './Footer';
+import teamone from '../assets/teamone.jpg'
 
 function Company() {
   return (
@@ -158,10 +159,10 @@ function Company() {
             <p className='mb-8 font-normal text-blue-gray-500'>Don't let your uses guess by attaching tooltips and popoves to <br />Don't let your uses guess by attaching tooltips and popoves to <br /> Don't let your uses guess by attaching tooltips and popoves to <br/> Don't let your uses guess by attaching tooltips and popoves to <br/>Don't let your uses guess by attaching tooltips and popoves to<br/>Don't let your uses guess by attaching tooltips and popoves to <br/>Don't let your uses guess by attaching tooltips and popoves to <br/>Don't let your uses guess by attaching tooltips and popoves to <br/>Don't let your uses guess by attaching tooltips and popoves to  </p>
         </div>
 
-        <div className='mx-auto mt-24 flex w-full justify-center px-4 md:w-4/12 lg:mt-0 '>
+        <div className='mx-auto mt-24 flex w-full justify-center px-4 md:w-4/12 lg:mt-0 shadow-lg'>
             <div className='shadow-lg shadow-gray-500/10'>
                 <div className='relative h-56'>
-                    IMAGE classname "h-full w-full"
+                <img className='h-full w-full' src={teamone} alt="/" />
 
                 </div>
 
@@ -175,7 +176,7 @@ function Company() {
 
             </div>
 
-        </div>
+        </div> 
 
         
     </div>   
