@@ -198,6 +198,15 @@ function Company() {
         </div>
     </div>
 
+
+
+
+
+
+
+
+    
+
     
     <Newsletter />
     <Footer />
