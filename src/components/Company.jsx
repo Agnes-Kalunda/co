@@ -155,8 +155,8 @@ function Company() {
             <div className='mb-6 inline-flex h-16 w-16 items-center justify-center rounded-full bg-white p-3 text-center shadow-lg'>
               image
             </div>
-            <h2 className='text-gray mb-3 font-bold'>Working with us is a pleasure</h2>
-            <p className='mb-8 font-normal text-blue-gray-500'>Don't let your uses guess by attaching tooltips and popoves to <br />Don't let your uses guess by attaching tooltips and popoves to <br /> Don't let your uses guess by attaching tooltips and popoves to <br/> Don't let your uses guess by attaching tooltips and popoves to <br/>Don't let your uses guess by attaching tooltips and popoves to<br/>Don't let your uses guess by attaching tooltips and popoves to <br/>Don't let your uses guess by attaching tooltips and popoves to <br/>Don't let your uses guess by attaching tooltips and popoves to <br/>Don't let your uses guess by attaching tooltips and popoves to  </p>
+            <h2 className='text-gray mb-3 font-bold text-4xl'>Working with us is a pleasure</h2>
+            <p className='mb-8 font-normal text-blue-gray-500'>Don't let your uses guess by attaching tooltips and popoves to lorem lorem <br />Don't let your uses guess by attaching tooltips and popoves to lorem bleh<br /> Don't let your uses guess by attaching tooltips and popoves to lorem lorem <br/> Don't let your uses guess by attaching tooltips and popoves to lorem lorem <br/>Don't let your uses guess by attaching tooltips and popoves to lorem lorem<br/>Don't let your uses guess by attaching tooltips and popoves to bleh lorem<br/>Don't let your uses guess by attaching tooltips and popoves to lorem bleh <br/>Don't let your uses guess by attaching tooltips and popoves to lorem bleh bm<br/>Don't let your uses guess by attaching tooltips and popoves to  </p>
         </div>
 
         <div className='mx-auto mt-24 flex w-full justify-center px-4 md:w-4/12 lg:mt-0 shadow-lg'>
@@ -170,7 +170,7 @@ function Company() {
                     <h2>Top Notch Services</h2>
                 </div>
                 <div className='font-normal text-blue-gray-500'>
-                    <p>The Arctic Ocean freezes every winter and much of the<br/> sea-ice then thaws every summer, and that process will<br/>sea-ice then thaws every summer, and that process will<br/>sea-ice then thaws every summer, and that process will</p>
+                    <p>The Arctic Ocean freezes every winter and much of the lorem lorem<br/> sea-ice then thaws every summer, and that process will<br/>sea-ice then thaws every summer, and that process will<br/>sea-ice then thaws every summer, and that process will</p>
 
                 </div>
 
@@ -180,6 +180,7 @@ function Company() {
 
         
     </div>   
+    
 
     <Footer />
     </div>
