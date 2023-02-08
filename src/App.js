@@ -9,22 +9,43 @@ import Newsletter from './components/Newsletter';
 import Company from './components/Company'
 import Form from './components/Form';
 import Container from './components/Container';
-// import { Route } from 'react-router-dom'
+import Routepath from './components/Routepath';
+import { Routes, Route, BrowserRouter } from 'react-router-dom'
 
 function App() {
   return (
     <div>
-      {/* <Navbar/>
-      <Route exact path="/" component={Hero} />
-      <Route path='/about' component={Company} />
-      <Route path='/contact' component={Form} /> */}
+      
+      {/* <BrowserRouter>
+       <Routes>
+        <Route exact path="/company" component={< Company />} />
+        <Route path='/container' component={<Container />} />
+        <Route path='/form' component={<Form />} />
 
-       <Navbar/>
+       </Routes>
+
+      </BrowserRouter> */}
+
+      <Routepath />
+
+       {/* <Navbar/>
             <Hero/>
             <Cards />
             <Section/>
             <Newsletter/>
-            <Footer />
+            <Footer /> */}
+            {/* <Container /> */}
+        {/* <div>
+          <ul>
+            <li><a href="http://localhost:3000/container">Container</a></li>
+            <li><a href="http://localhost:3000/company">Company</a></li>
+            <li><a href="http://localhost:3000/form">Form</a></li>
+            
+          </ul>
+        
+<Routepath/>
+        </div> */}
+            
      
     </div>
   );
