@@ -7,6 +7,7 @@ import Cards from './components/cards'
 import Footer from './components/Footer'
 import Newsletter from './components/Newsletter';
 import Company from './components/Company'
+import Form from './components/Form';
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
       <Newsletter />
       <Cards />
       <Footer /> */}
-      <Company />
+      {/* <Company /> */}
+      <Form />
      
     </div>
   );
