@@ -166,11 +166,11 @@ function Company() {
 
                 </div>
 
-                <div className='mb-3 font-bold '>
+                <div className='mb-3 font-bold text-4xl'>
                     <h2>Top Notch Services</h2>
                 </div>
                 <div className='font-normal text-blue-gray-500'>
-                    <p>The Arctic Ocean freezes every winter and much of the lorem lorem<br/> sea-ice then thaws every summer, and that process will<br/>sea-ice then thaws every summer, and that process will<br/>sea-ice then thaws every summer, and that process will</p>
+                    <p >The Arctic Ocean freezes every winter and much of the lorem lorem<br/> sea-ice then thaws every summer, and that process will<br/>sea-ice then thaws every summer, and that process will<br/>sea-ice then thaws every summer, and that process will</p>
 
                 </div>
 
@@ -180,7 +180,29 @@ function Company() {
 
         
     </div>   
-    
+
+    <div className='pt-20 pb-48 px-4'>
+        <div className='container mx-auto'>
+            <h1 className='text-white text-5xl text-center'> Here are our heroes</h1>
+            <p className='text-white pt-10 text-center'>   According to the National Oceanic and Atmospheric <br /> Administration,Ted, Scambos, NSIDClead scentist, puts the <br/>potentially record
+            maximum.</p>
+
+            <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-x-24 gap-12 mt-24'>
+            <img className='h-full w-full' src={teamone} alt="/" />
+            <img className='h-full w-full' src={teamone} alt="/" />
+            <img className='h-full w-full' src={teamone} alt="/" />
+            <img className='h-full w-full' src={teamone} alt="/" />
+            </div>
+
+        </div>
+    </div>
+
+    <div className='py-24 px-4 relative bg-blue-gray-50/50'>
+        <div>
+            
+        </div>
+
+    </div>
 
     <Footer />
     </div>
