@@ -27,6 +27,7 @@ const Form = () => {
             border-gray-300
             rounded-md
             shadow-sm
+            backdrop-blur-sm
             focus:border-indigo-300
             focus:ring
             focus:ring-indigo-200
@@ -69,6 +70,7 @@ const Form = () => {
             w-full
             mt-2 px-16 py-8
             border-gray-300
+            text-black
             rounded-md
             shadow-sm
             focus:border-indigo-300
