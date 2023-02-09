@@ -58,7 +58,7 @@ function Company() {
             </div>
 
             {/* 2nd item */}
-            <div className="relative flex flex-col items-center p-6transition duration-500 hover:scale-100 bg-white rounded hover:shadow-indigo-600 hover:shadow-mdrounded shadow-2xl">
+            <div className="relative flex flex-col items-center p-6 bg-white hover:shadow-indigo-600 hover:shadow-mdrounded shadow-2xl  transition duration-500 hover:scale-100">
               <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <g fill="none" fillRule="evenodd">
                   <rect className="fill-current text-blue-600" width="64" height="64" rx="32" />

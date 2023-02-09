@@ -40,7 +40,7 @@ function Routepath() {
     return (
         <BrowserRouter>
             <Routes>
-                <Route path="/home" element={ <Container /> } />
+                <Route path="/" element={ <Container /> } />
                 <Route path="/contact" element={ <Form /> } />
                 <Route path="/about" element={ <Company/>} />
             </Routes>
