@@ -6,10 +6,10 @@ import Newsletter from './Newsletter';
 
 const Form = () => {
   return (
-    <div> 
+    <div className='bg-black'> 
         <Navbar/>
 <div className="relative flex flex-col justify-center min-h-screen overflow-hidden ">
-      <div className="w-full p-6 m-auto bg-white rounded-md shadow-xl shadow-rose-600/40 ring-2 text-green-600 lg:max-w-xl">
+      <div className="w-full p-6 m-auto bg-white rounded-md shadow-xl shadow-rose-600/40 ring-2 text-[#00df9a] lg:max-w-xl">
         <h1 className="text-3xl font-semibold text-center  underline uppercase decoration-wavy">
           Contact Form
         </h1>

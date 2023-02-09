@@ -1,9 +1,14 @@
 import React from 'react';
 import Typed from 'react-typed';
+import Navbar from './Navbar';
+
 
 const Hero = () => {
   return (
-    <div className='text-white bg-lapt'>
+
+    <div>
+      <Navbar />
+      <div className='text-white bg-lapt8  bg-[length:1450px_800px] bg-no-repeat'>
       <div className='max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center'>
         <p className='text-[#00df9a] font-bold p-2'>
           GROWING WITH MBITIS
@@ -24,9 +29,13 @@ const Hero = () => {
           />
         </div>
         <p className='md:text-2xl text-xl font-bold text-gray-500'>Bleh rrrrrr fffff sssssss aaaa DAVID, MIKE, & NEEMA platforms.</p>
-        <button className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black'>Get Started</button>
+        <button className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-white'>Get Started</button>
       </div>
     </div>
+
+
+    </div>
+    
   );
 };
 

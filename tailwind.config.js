@@ -5,7 +5,7 @@ module.exports = withMT({
   content: ["./src/**/*.{js,jsx,ts,tsx}",],
   theme: {
     extend: {
-      backgroundImage : {'lapt' : "url('/public/lapt.jpeg')"}
+      backgroundImage : {'lapt8' : "url('/public/lapt8.webp')"}
     },
   },
   plugins: [],

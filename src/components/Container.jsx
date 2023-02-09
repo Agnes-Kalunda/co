@@ -11,7 +11,7 @@ import { Card } from '@material-tailwind/react';
 const Container = () => {
     return (
         <div>
-            <Navbar />
+        
         
         <Hero />
         <Cards />
