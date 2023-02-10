@@ -18,6 +18,7 @@ const Navbar = () => {
         <li className='p-4'><Link to='/'>Home</Link></li>
         <li className='p-4'><Link to='/about'>About</Link></li>
         <li className='p-4'><Link to='/testimonials'>Testimonials</Link></li>
+        <li className='p-4'><Link to='/marketing'>Marketing</Link></li>
         <li className='p-4'><Link to='/contact'>Contact</Link></li>
         {/* <li className='p-4'>Contact</li> */}
       </ul>
@@ -29,6 +30,7 @@ const Navbar = () => {
           <li className='p-4 border-b border-gray-600'><Link to='/'>Home</Link></li>
           <li className='p-4 border-b border-gray-600'><Link to='/about'>About</Link></li>
           <li className='p-4 border-b border-gray-600'><Link to='/testimonials'>Testimonials</Link></li>
+          <li className='p-4 border-b border-gray-600'><Link to='marketing'>Marketing</Link></li>
           <li className='p-4 border-b border-gray-600'><Link to='/contact'>Contact</Link></li>
           {/* <li className='p-4'>Contact</li> */}
       </ul>

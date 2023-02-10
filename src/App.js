@@ -12,6 +12,7 @@ import Container from './components/Container';
 import Routepath from './components/Routepath';
 import { Routes, Route, BrowserRouter } from 'react-router-dom'
 import SectionContainer from './SectionContainer';
+import Marketing from './components/Marketing';
 
 
 function App() {
@@ -28,10 +29,10 @@ function App() {
 
       </BrowserRouter> */}
 
-      {/* <Routepath /> */}
+      <Routepath />
 
       {/* <SectionContainer/> */}
-      <Routepath />
+      {/* <Marketing /> */}
 
        {/* <Navbar/>
             <Hero/>
