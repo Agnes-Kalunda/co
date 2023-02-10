@@ -11,6 +11,8 @@ import Form from './components/Form';
 import Container from './components/Container';
 import Routepath from './components/Routepath';
 import { Routes, Route, BrowserRouter } from 'react-router-dom'
+import SectionContainer from './SectionContainer';
+
 
 function App() {
   return (
@@ -26,6 +28,9 @@ function App() {
 
       </BrowserRouter> */}
 
+      {/* <Routepath /> */}
+
+      {/* <SectionContainer/> */}
       <Routepath />
 
        {/* <Navbar/>

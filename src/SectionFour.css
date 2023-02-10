@@ -1,0 +1,33 @@
+.section_four {
+    padding: 1.4rem;
+    background-color: hsl(219, 29%, 14%);
+    
+    color: #fff;
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+    border-radius: 30px;
+  }
+  
+  .image {
+    border-radius: 50%;
+    margin-right: 1rem;
+    width: 7rem;
+    border: 2px solid #fff;
+  }
+  
+  .person > p {
+    font-size: 1.2em;
+    font-weight: 600;
+  }
+  
+  h1 {
+    margin-top: 2rem;
+    font-size: 1.7rem;
+    margin-bottom: 2rem;
+  }
+  
+  .section_four__name {
+    display: flex;
+    align-items: center;
+  }

@@ -17,7 +17,7 @@ const Navbar = () => {
       <ul className='hidden md:flex'>
         <li className='p-4'><Link to='/'>Home</Link></li>
         <li className='p-4'><Link to='/about'>About</Link></li>
-        {/* <li className='p-4'>Resources</li> */}
+        <li className='p-4'><Link to='/testimonials'>Testimonials</Link></li>
         <li className='p-4'><Link to='/contact'>Contact</Link></li>
         {/* <li className='p-4'>Contact</li> */}
       </ul>
@@ -28,7 +28,7 @@ const Navbar = () => {
         <h1 className='w-full text-3xl font-bold text-[#00df9a] m-4'>REACT.</h1>
           <li className='p-4 border-b border-gray-600'><Link to='/'>Home</Link></li>
           <li className='p-4 border-b border-gray-600'><Link to='/about'>About</Link></li>
-          {/* <li className='p-4 border-b border-gray-600'>Resources</li> */}
+          <li className='p-4 border-b border-gray-600'><Link to='/testimonials'>Testimonials</Link></li>
           <li className='p-4 border-b border-gray-600'><Link to='/contact'>Contact</Link></li>
           {/* <li className='p-4'>Contact</li> */}
       </ul>

@@ -21,11 +21,29 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  /* color: white; */
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.section_one {
+  grid-column: 1 / span 2;
+  /* grid-row: 1 / span 2; */
+}
+
+.section_two {
+  grid-column: 3 / span 1;
+}
+
+.section_four {
+  grid-column: 2 / span 2;
+}
+
+.section_five {
+  grid-column: 4;
+  grid-row: 1 / span 2;
 }
 
 @keyframes App-logo-spin {

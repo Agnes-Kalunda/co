@@ -34,6 +34,7 @@ import Container from './Container'
 import Form from './Form'
 import Company from './Company'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import SectionContainer from "../SectionContainer";
 
 
 function Routepath() {
@@ -42,6 +43,7 @@ function Routepath() {
             <Routes>
                 <Route path="/" element={ <Container /> } />
                 <Route path="/contact" element={ <Form /> } />
+                <Route path="/testimonials" element={ <SectionContainer /> } />
                 <Route path="/about" element={ <Company/>} />
             </Routes>
         </BrowserRouter>
