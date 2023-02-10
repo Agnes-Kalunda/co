@@ -5,6 +5,8 @@ import SectionFour from "./SectionFour"
 import SectionFive from "./SectionFive";
 // import './App.css';
 import Navbar from "./components/Navbar";
+import Newsletter from "./components/Newsletter";
+import Footer from "./components/Footer";
 // import Navbar from "./components/Navbar";
 
 function SectionContainer() {
@@ -19,7 +21,8 @@ function SectionContainer() {
       <SectionFour/>
       <SectionFive />
     </div>
-
+<Newsletter/>
+<Footer />
     </div>
     
   );

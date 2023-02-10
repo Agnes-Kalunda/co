@@ -1,6 +1,7 @@
 import React  from "react";
 import Navbar from "./Navbar";
 import Newsletter from "./Newsletter";
+import Footer from './Footer';
 
 const Marketing =()=>{
     return(
@@ -60,7 +61,8 @@ const Marketing =()=>{
   </div>
 </section>
 
-
+<Newsletter/>
+<Footer/>
         </div>
 
     )
